@@ -84,7 +84,7 @@ export default class News extends Component {
   }
 
   handleNextPage = async () => {
-    console.log("Bello");
+    console.log("Beello");
     // let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=fddefd312ed24b908c5f7256bc56e1ee&pageSize=10&page=${this.state.page + 1}`
     // this.setState({
     //   spin: true
