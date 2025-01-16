@@ -114,7 +114,7 @@ export default class News extends Component {
     return (
       <div className='container '>
         {this.state.spin && <Loading />}
-        <h1 className='d-flex justify-content-center ms=5' style={{ margin: '50px' }}>NewsApp - {this.props.category}</h1>
+        <h1 className='d-flex justify-content-center ms=5' style={{ margin: '50px' }}>Newsapp - {this.props.category}</h1>
         <div className='row my-4' >
           {
             !this.state.spin && this.state.articles.map((element) => { //map element used to iterate through that JSON to display data in the web app
